@@ -15,8 +15,28 @@ const App = ({ Component, pageProps }: AppProps) => {
         withGlobalStyles
         withNormalizeCSS
         theme={{
-          fontFamily: "Open Sans, sans serif",
+          fontFamily: "Verdana, sans-serif",
           colorScheme: "light",
+          /* 色を追加できる pink.1 みたいにアクセスする */
+          colors: {
+            pink: [
+              "#fff1f2",
+              "#ffe4e6",
+              "#fecdd3",
+              "#fda4af",
+              "#fb7185",
+              "#f43f5e",
+              "#e11d48",
+              "#be123c",
+              "#9f1239",
+              "#881337",
+            ],
+          },
+          // primaryColor: "blue",
+          // primaryShade: {
+          //   light: 8,
+          //   dark: 1,
+          // },
         }}
       >
         <Component {...pageProps} />
