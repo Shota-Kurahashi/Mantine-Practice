@@ -16,6 +16,12 @@ const Home = () => (
       >
         Buttonページへ
       </Link>
+      <Link
+        href="/document/layout/layout"
+        className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
+      >
+        Layoutページへ
+      </Link>
     </div>
   </>
 );
