@@ -51,6 +51,22 @@ const Home = () => (
           Typographyページ
         </Link>
       </Grid.Col>
+      <Grid.Col span={2}>
+        <Link
+          className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
+          href="/document/overlay/overlay"
+        >
+          Overlaysページ
+        </Link>
+      </Grid.Col>
+      <Grid.Col span={2}>
+        <Link
+          className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
+          href="/document/Feedback/Feedback"
+        >
+          Feedbackページへ
+        </Link>
+      </Grid.Col>
     </Grid>
   </>
 );
