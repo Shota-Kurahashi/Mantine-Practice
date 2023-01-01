@@ -67,6 +67,14 @@ const Home = () => (
           Feedbackページへ
         </Link>
       </Grid.Col>
+      <Grid.Col span={2}>
+        <Link
+          className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
+          href="/document/DataDisplay/DataDisplay"
+        >
+          DataDisplayページへ
+        </Link>
+      </Grid.Col>
     </Grid>
   </>
 );
