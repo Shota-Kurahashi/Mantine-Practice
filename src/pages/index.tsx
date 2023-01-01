@@ -1,3 +1,4 @@
+import { Grid } from "@mantine/core";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -9,20 +10,32 @@ const Home = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <div className="p-10">
-      <Link
-        href="/document/button"
-        className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
-      >
-        Buttonページへ
-      </Link>
-      <Link
-        href="/document/layout/layout"
-        className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
-      >
-        Layoutページへ
-      </Link>
-    </div>
+    <Grid className="p-10" gutter={40} columns={10}>
+      <Grid.Col span={2}>
+        <Link
+          href="/document/button"
+          className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
+        >
+          Buttonページへ
+        </Link>
+      </Grid.Col>
+      <Grid.Col span={2}>
+        <Link
+          href="/document/layout/layout"
+          className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
+        >
+          Layoutページへ
+        </Link>
+      </Grid.Col>
+      <Grid.Col span={2}>
+        <Link
+          href="/document/input/inputPage"
+          className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
+        >
+          Inputページへ
+        </Link>
+      </Grid.Col>
+    </Grid>
   </>
 );
 
