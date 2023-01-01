@@ -1,7 +1,7 @@
 import { AppShell, Button, Footer, Header } from "@mantine/core";
 import { NextPage } from "next";
 import React, { useState } from "react";
-import { OtherLayout } from "./OterLayout";
+import OtherLayout from "./OtherLayout";
 
 const Layout: NextPage = () => {
   const [opened, setOpened] = useState(false);

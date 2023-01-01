@@ -1,11 +1,12 @@
 import { Center, Container } from "@mantine/core";
-import React, { FC } from "react";
+import { NextPage } from "next";
+import React from "react";
 import { FlexComp } from "../../../components/flex/FlexComp";
 import { GridComp } from "../../../components/grid/GridComp";
 import { GroupComp } from "../../../components/group/GroupComp";
 import { StackComp } from "../../../components/Stack/StackComp";
 
-export const OtherLayout: FC = () => (
+const OtherLayout: NextPage = () => (
   <div className="space-y-10">
     <Center p={40} className="bg-pink-500">
       <div className="bg-sky-500">
@@ -24,3 +25,5 @@ export const OtherLayout: FC = () => (
     <StackComp />
   </div>
 );
+
+export default OtherLayout;
