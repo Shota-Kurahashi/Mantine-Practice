@@ -11,7 +11,7 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Grid className="p-10" gutter={40} columns={10}>
-      <Grid.Col span={2}>
+      <Grid.Col span={5} md={2}>
         <Link
           href="/document/button"
           className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
@@ -19,7 +19,7 @@ const Home = () => (
           Buttonページ
         </Link>
       </Grid.Col>
-      <Grid.Col span={2}>
+      <Grid.Col span={5} md={2}>
         <Link
           href="/document/layout/layout"
           className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
@@ -27,7 +27,7 @@ const Home = () => (
           Layoutページ
         </Link>
       </Grid.Col>
-      <Grid.Col span={2}>
+      <Grid.Col span={5} md={2}>
         <Link
           href="/document/input/inputPage"
           className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
@@ -35,7 +35,7 @@ const Home = () => (
           Inputページ
         </Link>
       </Grid.Col>
-      <Grid.Col span={2}>
+      <Grid.Col span={5} md={2}>
         <Link
           className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
           href="/document/overlay/overlay"
@@ -43,7 +43,7 @@ const Home = () => (
           Overlaysページ
         </Link>
       </Grid.Col>
-      <Grid.Col span={2}>
+      <Grid.Col span={5} md={2}>
         <Link
           className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
           href="/document/typography/typography"
@@ -51,7 +51,7 @@ const Home = () => (
           Typographyページ
         </Link>
       </Grid.Col>
-      <Grid.Col span={2}>
+      <Grid.Col span={5} md={2}>
         <Link
           className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
           href="/document/overlay/overlay"
@@ -59,7 +59,7 @@ const Home = () => (
           Overlaysページ
         </Link>
       </Grid.Col>
-      <Grid.Col span={2}>
+      <Grid.Col span={5} md={2}>
         <Link
           className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
           href="/document/Feedback/Feedback"
@@ -67,7 +67,7 @@ const Home = () => (
           Feedbackページへ
         </Link>
       </Grid.Col>
-      <Grid.Col span={2}>
+      <Grid.Col span={5} md={2}>
         <Link
           className="inline-block  text-xl font-bold text-blue-500 no-underline hover:text-blue-700"
           href="/document/DataDisplay/DataDisplay"
